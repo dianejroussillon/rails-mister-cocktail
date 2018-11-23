@@ -5,7 +5,12 @@
   </div>
 </div>
 
+
 <div class="container">
+  <%= cl_image_tag("im3ezbxwffh3lyx2slnm",
+        width: 400, height: 300, crop: :fill) %>
+  <%= cl_image_tag("mliq7ucl9kokdy9opusg",
+        width: 150, height: 150, crop: :thumb, gravity: :face) %>
     <h1>All the Cocktails</h1>
   <div class="card-container">
     <% @cocktails.each do |cocktail| %>

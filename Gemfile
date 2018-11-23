@@ -9,6 +9,10 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 
+gem 'cloudinary', '~> 1.9.1'
+
+gem 'dotenv-rails', groups: [:development, :test]
+
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'

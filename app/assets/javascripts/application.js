@@ -15,6 +15,3 @@
 //= require turbolinks
 //= require_tree .
 
-
-import { loadDynamicBannerText } from '../components/banner';
-loadDynamicBannerText();

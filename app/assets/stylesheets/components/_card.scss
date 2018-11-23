@@ -1,0 +1,26 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.card {
+  height: 214px;
+  border-radius: 5%;
+  width: 300px;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 5px gray;
+  opacity: 1;
+}
+
+a {
+  color: white;
+  font-size: bold;
+}
+
+.card:hover {
+  opacity: 0.6;
+}

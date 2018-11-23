@@ -1,0 +1,8 @@
+<h1><%= @cocktail.name.capitalize %></h1>
+<% @cocktail.doses.each do |dose| %>
+<p><%= dose.description %></p>
+<p><%=  dose.ingredient.name %></p><%= link_to '<i class="fas fa-trash-alt"></i>'.html_safe ,url_for(action: :destroy,id: dose),method: :delete, data: {confirm: "Are you sure?"} %>
+<% end %>
+
+
+<%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: 'btn' %>
